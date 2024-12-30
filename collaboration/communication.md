@@ -6,7 +6,11 @@ ______________________________________________________________________
 
 | Day       | How  | The topic of discussion |
 |-----------|------|-------------------------|
-|           |      |                         |
+| Tuesday 31/12    | Whatsapp Group | Collaboration Documents |
+| Thursday 2/1     | Zoom Online Meeting | Problems Delivery  |
+| Saturday 4/1     | GitHub | Problems Delivery Deadline |               
+| Tuesday 7/1      | GitHub | Solutions Delivery Deadline |
+| Wednesday 8/1    | Zoom Online Meeting | Retrospective |
 
 ## Communication Channels
 
