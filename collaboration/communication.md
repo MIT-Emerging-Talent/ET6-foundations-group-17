@@ -4,9 +4,13 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day       | How  | The topic of discussion |
+| Day | How  | The topic of discussion |
 |-----------|------|-------------------------|
-|           |      |                         |
+| Tuesday 31/12 | Whatsapp Group | Collaboration Documents |
+| Thursday 2/1 | Zoom Online Meeting | Problems Delivery  |
+| Saturday 4/1 | GitHub | Problems Delivery Deadline |               
+| Tuesday 7/1 | GitHub | Solutions Delivery Deadline |
+| Wednesday 8/1 | Zoom Online Meeting | Retrospective |
 
 ## Communication Channels
 
@@ -26,7 +30,7 @@ ______________________________________________________________________
 | Name/Day | Sunday | Monday | Tuesday | Wednesday| Thursday | Friday | Saturday|
 |--------------|--------|---------|----------|----------|--------|-------|------|
 | Malak Battatt| 4-7 PM| 4-7 PM | 4-7 PM  | 4-7 PM |      |     |        |
-| Abdulrahman Alsir| 7-9 PM| 2-5 PM | 4-8 PM  | 7-9 PM | 7-9 PM | Unavailable | Unavailable |
+| Abdulrahman Alsir| 7-9PM| 2-5PM | 4-8PM | 7-9PM | 7-9PM | 6-8PM | 6-8PM |
 
 ### How many hours everyone has per day
 
