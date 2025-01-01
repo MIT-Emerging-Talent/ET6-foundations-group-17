@@ -27,12 +27,13 @@ ______________________________________________________________________
 |--------------|--------|---------|----------|----------|--------|-------|------|
 | Malak Battatt| 4-7 PM| 4-7 PM | 4-7 PM  | 4-7 PM |      |     |        |
 | Abdulrahman Alsir| 7-9PM| 2-5PM | 4-8PM  | 7-9PM | 7-9PM | 6-8PM | 6-8PM |
+| Panashe Whisper Matarutse | 7-9PM | 5-9PM | 7-9PM |7-9PM | 7-9PM | 7-9PM |   |
 
 ### How many hours everyone has per day
 
 - Malak Battatt: _~2h_;
 - Abdulrahman Alsir: _~2-4h_;
-- name: _5h_;
+- Panashe Whisper Matarutse: _~2-5h_;
 - name: _4h_;
 - name: _3h_;
 
