@@ -6,7 +6,7 @@ Module contents:
     loses, or draws based on the user's choice and the computer's choice
 
 Created on 31 12 24
-@author: Abdulrahman Alsir + Cody
+@author: Abdulrahman Ali + Cody
 """
 
 import random
