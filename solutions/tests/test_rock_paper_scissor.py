@@ -8,7 +8,7 @@ Test categories:
     - Defensive tests: wrong input types, assertions
 
 Created on 31-12-24
-Author: Abdulrahman Alsir + Cody
+Author: Abdulrahman Ali + Cody
 """
 
 import unittest
