@@ -6,7 +6,7 @@ Module contents:
     - main loop: collects user input until 9 numbers are provided and sorts them.
 
 Created on 31 12 24
-@author: Abdulrahman Alsir + Cody
+@author: Abdulrahman Ali + Cody
 """
 
 
