@@ -17,10 +17,11 @@ class TestEvenOddRange(unittest.TestCase):
 
     def test_even_odd_range_empty(self):
         """
-        Tests that an empty range returns two empty lists.
+        Tests that the function raises an error for an empty range where start > end.
         """
-        result = even_odd_range(5, 4)
-        self.assertEqual(result, ([], []))
+        with self.assertRaises(ValueError):
+            even_odd_range(5, 4)
+
 
     def test_even_odd_range_single(self):
         """
