@@ -22,7 +22,6 @@ class TestEvenOddRange(unittest.TestCase):
         with self.assertRaises(ValueError):
             even_odd_range(5, 4)
 
-
     def test_even_odd_range_single(self):
         """
         Tests that a single number in the range is classified correctly.
