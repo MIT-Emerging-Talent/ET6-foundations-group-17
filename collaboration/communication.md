@@ -1,4 +1,4 @@
-# Communication:
+# Communication
 
 ## Communication Schedule
 
