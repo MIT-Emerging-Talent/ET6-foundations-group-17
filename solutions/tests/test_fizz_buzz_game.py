@@ -16,7 +16,11 @@ Author: Cody + Abdulrahman Ali
 """
 
 import unittest
-from ..fizz_buzz_game import fizz_buzz
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).parent.parent))
+from fizz_buzz_game import fizz_buzz
 
 
 class TestFizzBuzzChallenge(unittest.TestCase):
@@ -79,19 +83,13 @@ class TestFizzBuzzChallenge(unittest.TestCase):
         self.assertEqual(result, expected)
 
     def test_invalid_input_start(self):
-        """
-        Test for invalid input where start is not an integer.
-        Should raise an AssertionError.
-        """
-        with self.assertRaises(AssertionError):
+        """Test for invalid input where start is not an integer."""
+        with self.assertRaises(TypeError):
             fizz_buzz("a", 10)
 
     def test_invalid_input_end(self):
-        """
-        Test for invalid input where end is not an integer.
-        Should raise an AssertionError.
-        """
-        with self.assertRaises(AssertionError):
+        """Test for invalid input where end is not an integer."""
+        with self.assertRaises(TypeError):
             fizz_buzz(10, "b")
 
     def test_large_range(self):

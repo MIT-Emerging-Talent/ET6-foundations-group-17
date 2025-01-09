@@ -2,17 +2,17 @@
 A module for a game called FizzBuzz.
 
 Module contents:
-    - fizz_buzz: generates a dictionary where the key is the number and the value is the outcome of that number
-    "Fizz" when a number is divisible by 3,
-    "Buzz" if the number is divisible by 5,
-    and "FizzBuzz" if the number is divisible by both.
+    - fizz_buzz: Generates a dictionary where the key is the number and the value is the outcome:
+      "Fizz" when a number is divisible by 3,
+      "Buzz" if the number is divisible by 5,
+      and "FizzBuzz" if the number is divisible by both.
 
 Created on 31-12-24
 @author: Abdulrahman Ali + Cody
 """
 
 
-def fizz_buzz(start: int, end: int) -> dict:
+def fizz_buzz(start: int, end: int) -> dict[int, str]:
     """
     Generate a dictionary for the FizzBuzz Game.
 
@@ -21,12 +21,12 @@ def fizz_buzz(start: int, end: int) -> dict:
         end (int): End of the range of numbers (exclusive).
 
     Returns:
-        dict: A dictionary where keys are the numbers and values are the outcome
-              of that number, which can be "Fizz", "Buzz", "FizzBuzz", or omitted
-              if none apply.
+        dict[int, str]: A dictionary where keys are the numbers and values are the outcome
+                        of that number, which can be "Fizz", "Buzz", "FizzBuzz", or omitted
+                        if none apply.
 
     Raises:
-        AssertionError: If the start or end are not integers.
+        TypeError: If the start or end are not integers.
 
     Examples:
         >>> fizz_buzz(2, 10)
@@ -36,9 +36,8 @@ def fizz_buzz(start: int, end: int) -> dict:
         >>> fizz_buzz(1, 5)
         {3: 'Fizz', 5: 'Buzz'}
     """
-    assert isinstance(start, int) and isinstance(
-        end, int
-    ), "Start and end must be integers."
+    if not isinstance(start, int) or not isinstance(end, int):
+        raise TypeError("Start and end must be integers.")
 
     results = {}
     for number in range(start, end):
