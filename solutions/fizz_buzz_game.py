@@ -41,7 +41,6 @@ def fizz_buzz(start: int, end: int) -> dict:
     ), "Start and end must be integers."
 
     results = {}
-    # Iterate through the range of numbers
     for number in range(start, end):
         if number % 15 == 0:
             results[number] = "FizzBuzz"
