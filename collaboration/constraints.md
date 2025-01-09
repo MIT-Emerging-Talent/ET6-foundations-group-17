@@ -13,6 +13,7 @@ hours to contribute this week.
 face scheduling conflicts.
 - **Resource Limitations:** Access to high-performance computers or specific
 software licenses may be restricted for some members.
+- **Childcare Responsibilities:** Some team members need to take care of their children.
 
 ## Internal: Involuntary
 
