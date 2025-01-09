@@ -17,7 +17,7 @@ import sys
 import unittest
 
 # To make the tests pass, change to an absolute import path "from number_guessing_game.py"
-from ..number_guessing_game import choose_difficulty, number_guessing_game
+from ..numberr_guessing_game import choose_difficulty, number_guessing_game
 
 # Add the parent directory to the system path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
