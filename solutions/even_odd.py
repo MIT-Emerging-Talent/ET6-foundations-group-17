@@ -1,19 +1,22 @@
 """
-Returns two lists: even and odd numbers from the specified range.
+This module contains a function that takes a range of numbers and returns
+two lists: one for even numbers and one for odd numbers within the specified range.
 
-The strategy is to iterate through the range (start to end, inclusive)
-and check each number. If it's divisible by 2, it's even; otherwise, it's odd.
+Function:
+    even_odd_range(start: int, end: int) -> tuple[list[int], list[int]]
 
 Arguments:
-    start (int): The starting value of the range.
-    end (int): The ending value of the range.
+    start (int): The starting number of the range (inclusive).
+    end (int): The ending number of the range (inclusive).
 
 Returns:
-    tuple: A tuple of two lists (even numbers, odd numbers).
+    tuple[list[int], list[int]]: A tuple containing two lists:
+        - A list of even numbers in the range.
+        - A list of odd numbers in the range.
 
 Raises:
+    ValueError: If start or end are not integers.
     ValueError: If start is greater than end.
-    ValueError: If either start or end is not an integer.
 
 Examples:
     >>> even_odd_range(1, 5)
