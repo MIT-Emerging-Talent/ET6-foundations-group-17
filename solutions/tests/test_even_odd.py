@@ -9,7 +9,13 @@ This test file includes:
 """
 
 import unittest
-from ..even_odd import even_odd_range
+
+try:
+    # For package execution
+    from ..even_odd import even_odd_range
+except ImportError:
+    # For standalone execution
+    from even_odd import even_odd_range
 
 
 class TestEvenOddRange(unittest.TestCase):
@@ -30,7 +36,7 @@ class TestEvenOddRange(unittest.TestCase):
     def test_even_odd_range_negative_numbers(self):
         """Tests ranges that include negative numbers."""
         result = even_odd_range(-5, 0)
-        self.assertEqual(result, ([0, -4], [-5, -3, -1]))
+        self.assertEqual(result, ([-4, -2, 0], [-5, -3, -1]))
 
     def test_even_odd_range_large_range(self):
         """Tests large ranges."""
@@ -47,3 +53,7 @@ class TestEvenOddRange(unittest.TestCase):
         """Tests ValueError when start > end."""
         with self.assertRaises(ValueError):
             even_odd_range(5, 3)
+
+
+if __name__ == "__main__":
+    unittest.main()
