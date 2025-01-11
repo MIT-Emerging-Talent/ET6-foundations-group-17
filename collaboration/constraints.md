@@ -41,7 +41,7 @@ white colors)
 The team has agreed to use specific tools (e.g., Slack, Zoom) for coordination
 and discussions.
 - **Review Policies:**
-Each pull request must be reviewed by at least two members before merging.
+Each pull request must be reviewed by at least one members before merging.
 
 <!--
   constraints that your team decided on to help scope the project. they may include:
