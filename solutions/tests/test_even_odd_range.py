@@ -1,5 +1,14 @@
-import unittest
+"""
+Unit tests for the even_odd_range function.
 
+This test file includes:
+- Tests for valid ranges (including single numbers).
+- Tests for edge cases like negative numbers.
+- Tests for invalid inputs like non-integer types.
+- Tests for large ranges.
+"""
+
+import unittest
 from ..even_odd import even_odd_range
 
 
@@ -9,36 +18,32 @@ class TestEvenOddRange(unittest.TestCase):
     """
 
     def test_even_odd_range_valid(self):
-        """
-        Tests that the function correctly splits a range into even and odd numbers.
-        """
+        """Tests valid ranges with both even and odd numbers."""
         result = even_odd_range(1, 5)
         self.assertEqual(result, ([2, 4], [1, 3, 5]))
 
-    def test_even_odd_range_empty(self):
-        """
-        Tests that the function raises an error for an empty range where start > end.
-        """
-        with self.assertRaises(ValueError):
-            even_odd_range(5, 4)
-
     def test_even_odd_range_single(self):
-        """
-        Tests that a single number in the range is classified correctly.
-        """
+        """Tests single number in the range (even)."""
         result = even_odd_range(4, 4)
         self.assertEqual(result, ([4], []))
 
+    def test_even_odd_range_negative_numbers(self):
+        """Tests ranges that include negative numbers."""
+        result = even_odd_range(-5, 0)
+        self.assertEqual(result, ([0, -4], [-5, -3, -1]))
+
+    def test_even_odd_range_large_range(self):
+        """Tests large ranges."""
+        result = even_odd_range(1, 100)
+        self.assertEqual(result[0], list(range(2, 101, 2)))
+        self.assertEqual(result[1], list(range(1, 101, 2)))
+
     def test_even_odd_range_invalid_type(self):
-        """
-        Tests that ValueError is raised if start or end are not integers.
-        """
+        """Tests ValueError for non-integer inputs."""
         with self.assertRaises(ValueError):
             even_odd_range(1, "5")
 
     def test_even_odd_range_invalid_order(self):
-        """
-        Tests that ValueError is raised if start is greater than end.
-        """
+        """Tests ValueError when start > end."""
         with self.assertRaises(ValueError):
             even_odd_range(5, 3)

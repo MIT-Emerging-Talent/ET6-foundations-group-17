@@ -23,6 +23,8 @@ Examples:
     ([2, 4], [1, 3, 5])
     >>> even_odd_range(0, 0)
     ([0], [])
+    >>> even_odd_range(-3, 3)
+    ([0, -2, 2], [-3, -1, 1, 3])
     >>> even_odd_range(5, 3)
     Traceback (most recent call last):
         ...
@@ -43,21 +45,17 @@ def even_odd_range(start: int, end: int) -> Tuple[List[int], List[int]]:
 
     Returns:
     A tuple of two lists: the first list contains even numbers, the second contains odd numbers.
-    """
 
-    # Defensive assertions
+    Examples:
+    >>> even_odd_range(-2, 2)
+    ([0, -2, 2], [-1, 1])
+    """
     if not isinstance(start, int) or not isinstance(end, int):
         raise ValueError("Both start and end must be integers.")
     if start > end:
         raise ValueError("The start value must not be greater than the end value.")
 
-    even_numbers = []
-    odd_numbers = []
-
-    for num in range(start, end + 1):
-        if num % 2 == 0:
-            even_numbers.append(num)
-        else:
-            odd_numbers.append(num)
+    even_numbers = [num for num in range(start, end + 1) if num % 2 == 0]
+    odd_numbers = [num for num in range(start, end + 1) if num % 2 != 0]
 
     return even_numbers, odd_numbers
