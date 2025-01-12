@@ -50,6 +50,24 @@ def even_odd_range(start: int, end: int) -> Tuple[List[int], List[int]]:
     >>> even_odd_range(-2, 2)
     ([0, -2, 2], [-1, 1])
     """
+from typing import List, Tuple
+
+def even_odd_range(start: int, end: int) -> Tuple[List[int], List[int]]:
+    """
+    Returns two lists: one with the even numbers and one with the odd numbers
+    within the specified range.
+
+    Arguments:
+    start -- The starting number (inclusive)
+    end -- The ending number (inclusive)
+
+    Returns:
+    A tuple of two lists: the first list contains even numbers, the second contains odd numbers.
+
+    Examples:
+    >>> even_odd_range(-2, 2)
+    ([0, -2, 2], [-1, 1])
+    """
     if not isinstance(start, int) or not isinstance(end, int):
         raise ValueError("Both start and end must be integers.")
     if start > end:
