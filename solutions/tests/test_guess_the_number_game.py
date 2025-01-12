@@ -6,7 +6,7 @@ Created on 11-01-25
 """
 
 import unittest
-from Guess_The_Number_Game import generate_random_number, guess_the_number
+from ..guess_the_number_game import generate_random_number, guess_the_number
 
 class TestGuessTheNumber(unittest.TestCase):
     """
