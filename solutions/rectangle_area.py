@@ -15,7 +15,7 @@ Raises:
 
 def calculate_area(length: float, width: float) -> float:
     """
-    Calculates the area of a rectangle using the formula: area = length * width.
+    This function calculates the area of a rectangle using the formula: area = length * width.
 
     >>> calculate_area(5.0, 3.0)  # Doctest: +NORMALIZE_WHITESPACE
     15.0
