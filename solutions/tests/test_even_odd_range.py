@@ -1,11 +1,11 @@
 import unittest
 
-import sys
-from pathlib import Path
-sys.path.append(str(Path(file).parent.parent))
-from even_odd_range import even_odd_range
-import unittest
-
+try:
+    # For package execution
+    from ..even_odd_range import even_odd_range
+except ImportError:
+    # For standalone execution
+    from even_odd_range import even_odd_range
 
 
 class TestEvenOddRange(unittest.TestCase):
