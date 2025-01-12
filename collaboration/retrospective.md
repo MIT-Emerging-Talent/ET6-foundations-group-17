@@ -6,7 +6,6 @@
 
 Abdulrahman:
 
-
 - Waiting until the last minute to complete requirements.
 
 - Being inactive and not responding.
