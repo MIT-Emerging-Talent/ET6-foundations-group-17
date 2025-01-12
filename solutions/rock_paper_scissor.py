@@ -3,7 +3,7 @@ A module for playing a game of Rock-Paper-Scissors.
 
 Module contents:
     - play_round: Simulates a round of Rock-Paper-Scissors where the user competes
-      against the computer.
+    against the computer.
 
 Created on 31-12-24
 Updated on 09-01-25
