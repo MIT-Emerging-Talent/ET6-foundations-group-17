@@ -13,3 +13,5 @@ they kept failing the CI checks and this affected all other team members and we
 needed to complete our project on time but these issues were keeping us from
 commiting any new changes to the repository because they will keep failing the
 CI checks.
+- We had to remove two challenges because they needed pandas and we weren't sure
+we can edit the workflow file to add pandas.
