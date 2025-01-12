@@ -9,6 +9,7 @@ Created on 11-01-25
 
 import random
 
+
 def select_random_word(word_list: list) -> str:
     """
     Select a random word from a given list.
@@ -23,8 +24,11 @@ def select_random_word(word_list: list) -> str:
         >>> select_random_word(["python", "hangman", "program"])
         'program'
     """
-    assert isinstance(word_list, list) and len(word_list) > 0, "Input must be a non-empty list."
+    assert (
+        isinstance(word_list, list) and len(word_list) > 0
+    ), "Input must be a non-empty list."
     return random.choice(word_list)
+
 
 def play_hangman(word: str, guesses: list) -> dict:
     """

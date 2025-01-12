@@ -8,6 +8,7 @@ Created on 11-01-25
 import unittest
 from ..hangman_game import select_random_word, play_hangman
 
+
 class TestHangmanGame(unittest.TestCase):
     """
     Test cases for the Hangman game functions.
@@ -60,6 +61,7 @@ class TestHangmanGame(unittest.TestCase):
         """Test losing condition in Hangman."""
         result = play_hangman("hangman", ["x", "y", "z", "w", "q", "e", "t"])
         self.assertEqual(result["status"], "lost")
+
 
 if __name__ == "__main__":
     unittest.main()
