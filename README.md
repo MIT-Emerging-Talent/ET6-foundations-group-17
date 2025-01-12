@@ -38,10 +38,10 @@ problem-solving. Here's a brief introduction to our team members:
   *Fun Fact:* "I'm a medical student who codes and leads teams—blending science,
    tech, and leadership in a unique way! I also love cats."
 
-- **Rouaa 🍲**
+- **Rouaa 🍲**  
   *Fun Fact:* "With all my responsibilities between home and study, I still find
-  the most fun in cooking up meals for my family—because good food is the best
-  way to bring everyone together!"
+    the most fun in cooking up meals for my family—because good food is the best
+    way to bring everyone together!"
 
 ---
 
