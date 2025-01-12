@@ -36,4 +36,3 @@ def calculate_area(length: float, width: float) -> float:
         raise ValueError("Length and width must be positive numbers.")
 
     return length * width
-
