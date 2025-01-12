@@ -15,8 +15,7 @@ import os
 import sys
 import unittest
 
-# the tests are passing even with unable to import warning/error
-from solutions.find_pythagorean_triplets import find_primitive_pythagorean_triplets
+from ..find_pythagorean_triplets import find_primitive_pythagorean_triplets
 
 # Add the parent directory to the system path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
