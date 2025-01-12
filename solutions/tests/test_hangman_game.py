@@ -6,7 +6,7 @@ Created on 11-01-25
 """
 
 import unittest
-from Hangman_Game import select_random_word, play_hangman
+from ..hangman_game import select_random_word, play_hangman
 
 class TestHangmanGame(unittest.TestCase):
     """
