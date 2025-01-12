@@ -16,7 +16,7 @@ import sys
 import unittest
 
 # the tests are passing even with unable to import warning/error
-from ..find_pythagorean_triplets import find_primitive_pythagorean_triplets
+from solutions.find_pythagorean_triplets import find_primitive_pythagorean_triplets
 
 # Add the parent directory to the system path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -49,6 +49,14 @@ class TestFindPrimitivePythagoreanTriplets(unittest.TestCase):
         """Test with a negative range value"""
         with self.assertRaises(ValueError):
             find_primitive_pythagorean_triplets(-5)
+
+    def test_large_input(self):
+        """Test with a very large range value to ensure performance"""
+        result = find_primitive_pythagorean_triplets(
+            10**6
+        )  # Added test for large input
+        # Checking the length to ensure it runs and returns results
+        self.assertTrue(len(result) > 0)
 
 
 if __name__ == "__main__":
