@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Test module for play_round function in the Rock-Paper-Scissors game.
 Contains tests for standard cases, edge cases, and defensive assertions.
