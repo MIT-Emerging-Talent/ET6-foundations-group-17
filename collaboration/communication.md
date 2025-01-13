@@ -10,8 +10,8 @@
 | Jan. 2nd ✅ | Thursday | Google Meet | Final meeting for the collaboration folder|
 | Jan. 4th ✅ | Saturday | Zoom Online Meeting | Problems Delivery |
 | Jan. 6th ✅ | Monday | GitHub | Review Session |
-| Jan. 8th | Wednesday | GitHub | Challenges Delivery Deadline |
-| Jan. 9th | Tuesday  | GitHub | Reviews Deadline |
+| Jan. 8th ✅| Wednesday | GitHub | Challenges Delivery Deadline |
+| Jan. 9th ✅| Tuesday  | GitHub | Reviews Deadline |
 | Jan. 11th | Saturday | Zoom Online Meeting | Retrospective |
 
 ## Communication Channels
@@ -19,10 +19,10 @@
 How often will we get in touch on each channel, and what we will discuss there:
 
 - **Issues**:  Used as needed to track tasks, discuss challenges, or document ideas.
- Team members should check for updates daily.
+ Team members should also check for updates on a daily basis.
 - **Pull Requests**: Created whenever code is ready for review. All team members
  should aim to review PRs within 24-48 hours.
-- **Slack/WhatsApp**: Active daily for quick updates, questions, or informal discussions.
+- **Slack/WhatsApp**: Active daily for quick updates, questions, and informal discussions.
 - **Video Calls**: Scheduled every 3 days to discuss progress, address blockers,
  and align on upcoming tasks.
 
@@ -32,18 +32,20 @@ How often will we get in touch on each channel, and what we will discuss there:
 
 | Name/Day | Sunday | Monday | Tuesday | Wednesday| Thursday | Friday | Saturday|
 |--------------|--------|---------|----------|----------|--------|-------|------|
-| Malak Battatt| 5-8 PM| 5-8 PM | 5-8 PM | 5-8 PM |3-6 PM | 2-4 PM| 2-5 PM |
+| Malak Battatt| 5-8PM| 5-8PM | 5-8PM | 5-8PM |3-6PM | 2-4PM| 2-5PM |
 | Abdulrahman Alsir| 7-9PM| 2-5PM | 4-8PM | 7-9PM | 7-9PM | 6-8PM | 6-8PM |
+| Ameen Agha| 2-6PM| 2-6PM | 2-6PM | 2-6PM | 2-6PM | 2-6PM| 2-6PM|
 | Aseel AbuKmail| 7-10PM| 2-5PM | 5-8PM | 5-7PM | 7-9PM | 6-10PM | 6-8PM |
 | Maher Assaf | 4-7PM| 4-7PM | 6-7PM | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
 | Maria Roufail | 4-7PM| 4-7PM | 6-7PM | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
 | Muhannad Assaf | 4-7PM| 4-7PM | 6-7PM | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
-| Rouaa Hamzah | 4-7 PM| 4-7 PM | 4-7 PM | 4-7 PM | 7-9PM | | |
+| Rouaa Hamzah | 4-7PM| 4-7PM | 4-7PM | 4-7PM | 7-9PM | 7-9PM| 7-9PM|
 
 ### How many hours everyone has per day
 
 - Malak Battatt: _~2-4h_;
 - Abdulrahman Alsir: _~2-4h_;
+- Ameen Agha: _~2-4h_;
 - Aseel AbuKmail: _~2-4h_;
 - Maher: _~2h_;
 - Maria: _~2h_;

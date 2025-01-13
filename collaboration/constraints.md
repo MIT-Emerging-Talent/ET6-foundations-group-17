@@ -27,6 +27,8 @@ discussions.
 members may create bottlenecks for specific tasks.
 - **Health and Well-being:** Some members may have personal health issues or
 responsibilities that could affect their availability.
+- **Knowledge Gaps:** Some team members may lack experience with certain tools
+  or frameworks required for the project, leading to delays.
 
 ## Internal: Voluntary
 
