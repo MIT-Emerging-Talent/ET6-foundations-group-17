@@ -3,12 +3,13 @@ A module for a Guess the Number game.
 Module contents:
     - generate_random_number: Generates a random number within a range.
     - guess_the_number: Compares a guessed number with the target and returns
-      feedback.
+    feedback.
 Created on 8-01-25
 @author: Ameen Agha
 """
 
 import random
+
 
 def generate_random_number(start: int, end: int) -> int:
     """
@@ -31,6 +32,7 @@ def generate_random_number(start: int, end: int) -> int:
     assert start < end, "Start must be less than end."
     return random.randint(start, end)
 
+
 def guess_the_number(target: int, guess: int) -> str:
     """
     Compares a guess with the target number and provides feedback.
@@ -49,7 +51,9 @@ def guess_the_number(target: int, guess: int) -> str:
         >>> guess_the_number(10, 10)
         'Correct!'
     """
-    assert isinstance(target, int) and isinstance(guess, int), "Inputs must be integers."
+    assert isinstance(target, int) and isinstance(guess, int), (
+        "Inputs must be integers."
+    )
 
     if guess < target:
         return "Too low!"
