@@ -4,9 +4,17 @@ Contains tests for the random number generator and guessing logic.
 Created on 11-01-25
 @author: Ameen Agha
 """
-
+import sys
+import os
 import unittest
-from Guess_The_Number_Game import generate_random_number, guess_the_number
+
+
+# Add the parent directory to the system path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+# Now import the function
+from solutions.guess_the_number_game import generate_random_number, guess_the_number
+
 
 class TestGuessTheNumber(unittest.TestCase):
     """
@@ -49,6 +57,7 @@ class TestGuessTheNumber(unittest.TestCase):
         """Test guessing with non-integer inputs."""
         with self.assertRaises(AssertionError):
             guess_the_number(10, "five")
+
 
 if __name__ == "__main__":
     unittest.main()
